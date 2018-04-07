@@ -1,15 +1,15 @@
 Prerequisite
-Php should be installed and accescibile from terminal
+Php should be installed and accessible from terminal
 
 What this tool does
-This tool encodes your php data in a header file which you can include in your cprogram and execute from C. This way you can hide your php business logic
+This tool encodes and packages your php data in a header file which you can include in your c program and execute from within program. This way you can hide your php business logic
 
 Convert.php
-The script takes 2 input . First arg is the php script filename which needs to be encoded.2nd argument is  the name of c header file which is created by the tool. You can run this tool like this
+The script takes 2 input arguments. First arg is the php script filename which needs to be encoded and packaged. Second argument is  the name of c header file which is created by the tool. You can run this tool like this
 php convert.php example.php prog.h
  
 
-There is Makefile.Which builds an application.Just run make and it should create prog.h and app after encoding example.php. main.c are easy enough to understand
- 
+There is Makefile, which builds a demo application. Just run make and it should create prog.h and app after encoding example.php. 
+
 Feel free to contact me for any assistance ahmad_mumtaz1@hotmail.com 
 
