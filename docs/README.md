@@ -1,4 +1,4 @@
-# Project Title
+# PHP Code protect 
 
 This simple php script encrypts and packages any php script into a c header file, which then can be included into your project and executed from a C program. 
 
