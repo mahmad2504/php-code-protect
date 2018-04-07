@@ -1,14 +1,3 @@
-### Are you trying to prevent people from reading/modifying your code? 
-
-## In the time of open-source there are multiple benefits of making your code available to all. However when deploying or selling your PHP code to a client you might want to protect and hide it because of different business reasons or security.
-
-This simple php script encrypts and packages any php script into a c header file, which then can be included into your project and executed from a C program. 
-
-Limitation
-1- C Program can just execute the script and communicate via files 
-2- PHP Script cannot have access 
-
-
 # Project Title
 
 This simple php script encrypts and packages any php script into a c header file, which then can be included into your project and executed from a C program. 
@@ -83,19 +72,12 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
-
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
+* **Mumtaz Ahmad** - *Initial work* 
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](License.md) file for details
 
-## Acknowledgments
-
-* Hat tip to anyone who's code was used
-* Inspiration
-* etc
 
 
 
