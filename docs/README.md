@@ -4,19 +4,19 @@ This simple php script encrypts and packages any php script into a c header file
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
 ### Prerequisites
 
-PHP version should be installed and must be accessible from terminal
+PHP  should be installed and must be accessible from terminal
 C Program should be compiled with g++
 C Program should be compiled with -std=c++11
 
 ### Installing
 Download the code 
 Run -   php convert.php example.php prog.h
-The script takes 2 parameters. 
-First arg is the php script filename which needs to be encoded.
+Convert script takes 2 parameters. 
+First arg is the php script filename which needs to be packaged
 Second argument is the name of c header file which is created by the tool. 
  
 There is Makefile.
